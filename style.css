@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: purple;
+    width: 100%;
+    padding: 15px 40px;
+    z-index: 1000;
+}
+.logo{
+    height: 45px;
+    padding-bottom: 5px;
+}
+.botoes-header{
+    display: flex;
+    padding-right: 25px;
+    gap: 30px;
+}
+.solu-educa{
+    padding-right: 30px;
+}
+.botoes-header a{
+    text-decoration: none;
+    color: white;
+    font-size:large;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:darkcyan;
+
+}
+
+.capacitacoes-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.capa{
+    margin: 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+#footer{
+    background: black;
+    padding: 50px 20px;
+}
+
+#footer h4{
+    color: white;
+}
+#footer a{
+    color: white;
+    text-decoration-color: white;
+}

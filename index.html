@@ -8,7 +8,7 @@
 </head>
 <body>
     <!--header com nav(segue a página e muda de cor)-->
-    <header>
+    <header id="header">
         <div class="logo">
             <img src="assets/logo.png">
         </div>
@@ -17,6 +17,7 @@
             <a href="#" class="solu-educa">Soluções Educacionais</a>
         </nav>  
     </header>
+    <main>
     <!--Titulo escola avanti-->
     <h1 class="titulo-avanti">
         <strong>Escola Atlântico Avanti</strong>
@@ -32,25 +33,27 @@
         <div class="capa">
             <h3><strong>Cientista de Dados</strong></h3>
             <p>Cada vez mais empresas dependem de dados para tomar decisões — e o profissional que sabe coletar, analisar e comunicar esses insights está em alta.</p>
-            <button>Saiba mais</button>
+            <button class="saiba-mais">Saiba mais</button>
         </div>
         <!--FS-->
         <div class="capa">
             <h3><strong>Desenvolvedor Full Stack</strong></h3>
             <p>O mercado de tecnologia está mudando rápido! Hoje, saber apenas front-end ou só back-end não basta — as empresas buscam profissionais com visão completa.</p>
-            <button>Saiba mais</button>
+            <button class="saiba-mais">Saiba mais</button>
         </div>
         <!--DF-->
         <div class="capa">
             <h3><strong>Design de Futuro</strong></h3>
             <p>Aprenda a antecipar tendências, construir cenários e transformar incertezas em vantagens competitivas.</p>
-            <button>Saiba mais</button>
+            <button class="saiba-mais">Saiba mais</button>
         </div>
     </section>
     <!--Somos uma escola...-->
     <section>
-
-    </section>
+        <div class="text-escola">
+            <p>Somos uma escola de <strong>tecnologia</strong>, <strong>inovação</strong> e <strong>liderança</strong> que conecta educação de <strong>excelência</strong> com o ecossistema de <strong>ciência</strong> e <strong>tecnologia</strong>, oferecendo soluções educacionais integradas para capacitar pessoas e empresas a resolver problemas complexos e <strong>liderar</strong> a <strong>transformação</strong> no mercado.</p>
+        </div>
+        </section>
     <!--Destaque-se-->
     <section>
 
@@ -67,36 +70,43 @@
     <section>
 
     </section>
+    </main>
     <!--footer-->
     <footer id="footer">
-        <div class="logo-footer">
-            <img src="assets/logo.png">
+        <div class="column-left"> 
+            <div class="logo-footer">
+                <img src="assets/logo.png">
+            </div>
         </div>
-        <div class="botao-footer">
-            <a href="#" class="inicio-footer">Início</a>
+        <div class="column-middle">    
+            <div class="botao-footer">
+                <a href="#" class="inicio-footer">Início</a>
+            </div>
+            <div class="redes-sociais">
+                <a href="#"><img src="assets/face.png"></a>
+                <a href="#"><img src="assets/linkedin.png"></a>
+                <a href="#"><img src="assets/insta.png"></a>
+                <a href="#"><img src="assets/whatsapp.png"></a>
+                <a href="#"><img src="assets/youtube.png"></a>
+            </div>
+            <div class="local">
+                <h4>Ceará</h4>
+                <h4>Av. Washington Soares, 909, Lojas 42, 43, 44, E 45</h4>
+                <h4>Edson Queiroz - Fortaleza</h4>
+                <h4>CEP: 60811-341</h4>
+            </div>
         </div>
-        <div class="redes-sociais">
-            <a href="#"><img src="assets/face.png"></a>
-            <a href="#"><img src="assets/linkedin.png"></a>
-            <a href="#"><img src="assets/insta.png"></a>
-            <a href="#"><img src="assets/whatsapp.png"></a>
-            <a href="#"><img src="assets/youtube.png"></a>
-        </div>
-        <div class="local">
-            <h4>Ceará</h4>
-            <h4>Av. Washington Soares, 909, Lojas 42, 43, 44, E 45</h4>
-            <h4>Edson Queiroz - Fortaleza</h4>
-            <h4>CEP: 60811-341</h4>
-        </div>
-        <div class="politicas">
-            <h4>Política de privacidade e uso de cookies. <a href="#">Clique aqui</a></h4>
-            <h4>Termo de Consentimento. <a href="#">Clique aqui</a></h4>
-            <h4>Requisição de Titular de dados. <a href="#">Clique aqui</a></h4>
-        </div>
-        <div class="contato">
-            <h4>Entre em contato:</h4>
-            <h4><a href="#">contato@atlanticoavanti.com.br</a></h4>
-            <h4><a href="#">(85) 99111-1262</a></h4>
+        <div class="column-right">
+            <div class="politicas">
+                <h4>Política de privacidade e uso de cookies. <a href="#">Clique aqui</a></h4>
+                <h4>Termo de Consentimento. <a href="#">Clique aqui</a></h4>
+                <h4>Requisição de Titular de dados. <a href="#">Clique aqui</a></h4>
+            </div>
+            <div class="contato">
+                <h4>Entre em contato:</h4>
+                <h4><a href="#">contato@atlanticoavanti.com.br</a></h4>
+                <h4><a href="#">(85) 99111-1262</a></h4>
+            </div>
         </div>
     </footer>
 </body>

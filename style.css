@@ -1,9 +1,11 @@
-header{
+/*Header*/
+#header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    background-color: purple;
+    top: 0;
+    background-color: #112352;
     width: 100%;
     padding: 15px 40px;
     z-index: 1000;
@@ -25,11 +27,46 @@ header{
     color: white;
     font-size:large;
 }
+/*Header end*/
+/*Main*/
+.titulo-avanti{
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 70px;
+    color: white;
+}
+.subt-avanti{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: white;
+}
+
 body{
     margin: 0;
     padding: 0;
-    background-color:darkcyan;
+    background: linear-gradient(135deg,#9836BA,#30123F,#DE4E59);
+    display: flex;
+    flex-direction: column;
+}
 
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+main{
+    flex: 1;
+}
+/*Capacitações*/
+.capacitacoes-titulo{
+    margin-left: 60px;
+    margin-top: 80px;
+    margin-bottom: 5px;
+    font-size: 32px;
+    color: white;
 }
 
 .capacitacoes-div{
@@ -39,20 +76,85 @@ body{
     margin-top: 50px;
     flex-wrap: wrap;
 }
-
+.capacitacoes-div h3{
+    color: #D9D5E0;
+}
+.capacitacoes-div p{
+    color: white;
+}
+.saiba-mais{
+    background-color: #EB5259;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 12px 12px 12px 12px;
+}
+.capa h3{
+    font-size: 25px;
+}
+.capa p{
+    font-size: 18px;
+}
 .capa{
     margin: 15px;
-    border: 3px solid white;
-    border-radius: 10px;
+    border: 1px solid #766180;
+    border-radius: 20px;
     padding: 10px;
     justify-content: center;
     width: 20%;
     box-sizing: border-box;
 }
+/*somos uma escola*/
+.text-escola{
+    margin-top: 100px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    background-color: #E8EAED;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text-escola p{
+    max-width: 1200px;
 
+}
+/*Main end*/
+/*footer*/
 #footer{
     background: black;
-    padding: 50px 20px;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    flex-wrap: wrap;
+}
+.column-left, .column-right, .column-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.column-right{
+    margin-right: 50px;
+}
+
+.logo-footer img{
+    width:200px;
+}
+#footer h4{
+    margin: 4px 0;
+    font-weight: 400;
+}
+
+.botao-footer a{
+    text-decoration: none;
+}
+
+#footer>div{
+    margin-bottom: 12px;
 }
 
 #footer h4{
@@ -62,3 +164,4 @@ body{
     color: white;
     text-decoration-color: white;
 }
+

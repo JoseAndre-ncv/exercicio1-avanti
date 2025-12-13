@@ -3,219 +3,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Escola Atlântico Avanti</title>
+
     <link rel="stylesheet" href="style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!--header com nav(segue a página e muda de cor)-->
-    <header id="header">
+
+<header id="header">
+    <div class="container header-content">
         <div class="logo">
-            <img src="assets/logo.png">
+            <img src="assets/logo.png" alt="Atlântico Avanti">
         </div>
+
         <nav class="botoes-header">
-            <a href="#" class="capacitacoes-header">Capacitações</a>
-            <a href="#" class="solu-educa">Soluções Educacionais</a>
-        </nav>  
-    </header>
-    <main>
-    <!--Titulo escola avanti-->
-    <h1 class="titulo-avanti">
-        <strong>Escola Atlântico Avanti</strong>
-    </h1>
-    <p class="subt-avanti">
-        <strong>Somos a escola de tecnologia, inovação e liderança do Instituto Atlântico</strong>
-    </p>
-    <!--capacitações titulo-->
+            <a href="#">Capacitações</a>
+            <a href="#">Soluções Educacionais</a>
+            <a href="#" class="btn-header">Fale Conosco</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="container">
+        <h1 class="titulo-avanti">Escola Atlântico Avanti</h1>
+        <p class="subt-avanti">
+            Somos a escola de tecnologia, inovação e liderança do Instituto Atlântico
+        </p>
+    </div>
+</section>
+
+<section class="container">
     <h2 class="capacitacoes-titulo">Capacitações</h2>
-    <!--capacitações-->
-    <section class="capacitacoes-div">
-        <div class="capacita-cards">
-            <!--CdD-->
-            <div class="capa">
-                <h3><strong>Cientista de Dados</strong></h3>
-                <p>Cada vez mais empresas dependem de dados para tomar decisões — e o profissional que sabe coletar, analisar e comunicar esses insights está em alta.</p>
-                <button class="saiba-mais">Saiba mais</button>
-            </div>
-            <!--FS-->
-            <div class="capa">
-                <h3><strong>Desenvolvedor Full Stack</strong></h3>
-                <p>O mercado de tecnologia está mudando rápido! Hoje, saber apenas front-end ou só back-end não basta — as empresas buscam profissionais com visão completa.</p>
-                <button class="saiba-mais">Saiba mais</button>
-            </div>
-            <!--DF-->
-            <div class="capa">
-                <h3><strong>Design de Futuro</strong></h3>
-                <p>Aprenda a antecipar tendências, construir cenários e transformar incertezas em vantagens competitivas.</p>
-                <button class="saiba-mais">Saiba mais</button>
-            </div>
+
+    <div class="capacita-cards">
+        <div class="capa">
+            <h3>Cientista de Dados</h3>
+            <p>Cada vez mais empresas dependem de dados para tomar decisões.</p>
+            <button class="saiba-mais">Saiba mais</button>
         </div>
-    </section>
-    <!--Somos uma escola...-->
-    <section class="about-escola">
-        <div class="text-escola">
-            <p>Somos uma escola de <strong>tecnologia</strong>, <strong>inovação</strong> e <strong>liderança</strong> que conecta educação de <strong>excelência</strong> com o ecossistema de <strong>ciência</strong> e <strong>tecnologia</strong>, oferecendo soluções educacionais integradas para capacitar pessoas e empresas a resolver problemas complexos e <strong>liderar</strong> a <strong>transformação</strong> no mercado.</p>
+
+        <div class="capa">
+            <h3>Desenvolvedor Full Stack</h3>
+            <p>O mercado busca profissionais com visão completa.</p>
+            <button class="saiba-mais">Saiba mais</button>
         </div>
-        </section>
-    <!--Destaque-se-->
-    <section class="about-destaque">
-        <div class="lado-esquerdo">
-            <div class="video-avanti">
-            <video width="600" controls>
+
+        <div class="capa">
+            <h3>Design de Futuro</h3>
+            <p>Antecipe tendências e transforme cenários.</p>
+            <button class="saiba-mais">Saiba mais</button>
+        </div>
+    </div>
+</section>
+
+<section class="about-escola">
+    <div class="container">
+        <p>
+            Somos uma escola de <strong>tecnologia</strong>, <strong>inovação</strong> e <strong>liderança</strong>
+            que conecta educação de excelência com o ecossistema de ciência e tecnologia.
+        </p>
+    </div>
+</section>
+
+<section class="about-destaque">
+    <div class="container destaque-grid">
+        <div>
+            <video controls>
                 <source src="assets/video.mp4" type="video/mp4">
-                Seu navegador não suporta a tag de vídeo
             </video>
-            </div>
         </div>
-        <div class="lado-direito">
-            <div class="text-destaque">
-                <p>Destaque-se no mercado</p>
-            </div>
-            <div class="text-oferecemos">
-                <p>Oferecemos as formações ideais para desenvolver as habilidades <strong>mais procuradas pelas grandes empresas!</strong></p>
-            </div>
-            <div class="text-topicos">
-                <ul class="top1">
-                    <li>Com muita mão na massa, nossa metodologia de ensino garante que o aluno tenha um aprendizado 360°.</li>
-                </ul>
-                <ul class="top2">
-                    <li>Faça parte de uma comunidade de profissionais de destaque e com muita troca de experiência.</li>
-                </ul>
-                <ul class="top3">
-                    <li>Vá além do conhecimento técnico com nossos módulos de soft skills, torne-se um profissional completo.</li>
-                </ul>
-            </div>
+
+        <div>
+            <span class="badge">Destaque-se no mercado</span>
+            <h2>Formações alinhadas às grandes empresas</h2>
+            <ul>
+                <li>Metodologia prática e aplicada</li>
+                <li>Comunidade forte de profissionais</li>
+                <li>Soft skills + técnica</li>
+            </ul>
         </div>
-    </section>
-    <!--Vá além...-->
-    <section class="va-alem">
-            <h2 class="text-alem">Vá além dos requisitos mínimos do mercado.</h2>
-            <p class="subt-alem">Nossos especialistas estão prontos para te ajudar a escolher o melhor caminho para sua carreira e te apoiar a se posicionar como referência e liderança no seu segmento.</p>
-            <button class="button-contato">Entrar em contato</button>
-    </section>
-    <!--depoimentos-->
-    <section class="area-depoimento">
-        <div class="text-depo">
-            <p class="text-vale">O Avanti Vale a pena?</p>
-            <h3 class="text-confira">Confira os depoimentos de<br> quem estudou com a gente</h3>
-        </div>
-        <section class="cards-depoimento">
-            <div class="depoimento 1">
-                <iframe width="200" height="120" src="https://www.youtube.com/embed/OtyM6y7IAos" frameborder="0" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section class="va-alem">
+    <div class="container">
+        <h2>Vá além dos requisitos mínimos do mercado</h2>
+        <p>Nossos especialistas te ajudam a construir uma carreira sólida.</p>
+        <button class="button-contato">Entrar em contato</button>
+    </div>
+</section>
+
+<section class="area-depoimento">
+    <div class="container">
+        <p class="text-vale">O Avanti vale a pena?</p>
+        <h3 class="text-confira">Confira os depoimentos</h3>
+
+        <div class="cards-depoimento">
+
+            <div class="depoimento">
+                <div class="video-box">
+                    <iframe src="https://www.youtube.com/embed/OtyM6y7IAos" allowfullscreen></iframe>
+                </div>
                 <p class="citacao">"...minha experiência foi muito positiva..."</p>
                 <p class="nome">Vitória Marinho</p>
-                <p class="profissao">Ux Designer</p>
+                <p class="profissao">UX Designer</p>
             </div>
-            <div class="depoimento 2">
-                <iframe width="200" height="120" src="https://www.youtube.com/embed/wKSoOHouXwE" frameborder="0" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="citacao">"...no Linkedin apareceram várias propostas de emprego...."</p>
+
+            <div class="depoimento">
+                <div class="video-box">
+                    <iframe src="https://www.youtube.com/embed/wKSoOHouXwE" allowfullscreen></iframe>
+                </div>
+                <p class="citacao">"...no Linkedin apareceram várias propostas de emprego..."</p>
                 <p class="nome">Jeferson</p>
-                <p class="profissao">Analista de sistemas</p>
+                <p class="profissao">Analista de Sistemas</p>
             </div>
-            <div class="depoimento 3">
-                <iframe width="200" height="120" src="https://www.youtube.com/embed/WbxNbmU4nzg" frameborder="0" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div class="depoimento">
+                <div class="video-box">
+                    <iframe src="https://www.youtube.com/embed/WbxNbmU4nzg" allowfullscreen></iframe>
+                </div>
                 <p class="citacao">"...ambiente muito leve, muito organizado, muito colaborativo..."</p>
                 <p class="nome">Hugo Barreto</p>
                 <p class="profissao">Gerente de Projetos</p>
             </div>
-            <div class="depoimento 4">
-                <iframe width="200" height="120" src="https://www.youtube.com/embed/UC80q9NYkSk" frameborder="0" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div class="depoimento">
+                <div class="video-box">
+                    <iframe src="https://www.youtube.com/embed/UC80q9NYkSk" allowfullscreen></iframe>
+                </div>
                 <p class="citacao">"...uma metodologia que é excelente, isso já gerou impacto pro meu negócio..."</p>
                 <p class="nome">Marcelo Figueiral</p>
                 <p class="profissao">Diretor de Inovação</p>
             </div>
-        </section>
-    </section>
-    <!--de mercado a gente...-->
-    <section class="de-mercado">
-    <div class="block-row">
-        <div class="left-block">
-                <div class="hashtag">
-                    <p>#escolhaavanti</p>
-                </div>
-                <div class="text1">
-                    <p>De mercado a gente entende!</p>
-                </div>
-                <div class="subtext1">
-                    <p>O Atlântico, reconhecido como uma das principais empresas de tecnologia para se trabalhar no Brasil, emprega mais de 600 profissionais. Agora, apresenta o Avanti, um programa focado em capacitar talentos da área de TI para estarem à frente no mercado das mais novas tecnologias. Não é apenas um curso, é uma formação desenvolvida por profissionais, para profissionais</p>
-                </div>
-                <div class="atlantico-slogan">
-                    <img src="assets/atlantico-slogan.avif">
-                </div>
-        </div>
-        <div class="right-block">
-            <div class="rb-column">
-                <div class="img-pessoas">
-                    <img src="assets/pessoas.jpeg" class="pessoas" >
-                    <img src="assets/certificado.avif" class="gptw">
-                </div>
-                <div class="certi-row">
-                    <div class="certificado">
-                        <img src="assets/cert1.avif">
-                    </div>
-                    <div class="certificado">
-                        <img src="assets/cert2.avif">
-                    </div>
-                    <div class="certificado">
-                        <img src="assets/cert3.avif">
-                    </div>
-                    <div class="certificado">
-                        <img src="assets/cert4.avif">
-                    </div>
-                    <div class="certificado">
-                        <img src="assets/cert5.avif">
-                    </div>
-                    <div class="certificado">
-                        <img src="assets/cert6.avif">
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
-    </section>
-    </main>
-    <!--footer-->
-    <footer id="footer">
-        <div class="column-left"> 
-            <div class="logo-footer">
-                <img src="assets/logo.png">
-            </div>
+</section>
+
+
+<section class="market-section">
+    <div class="container market-grid">
+
+        <!-- Texto -->
+        <div class="market-text">
+            <span class="market-hashtag">#escolhaavanti</span>
+
+            <h2>De mercado a<br>gente entende!</h2>
+
+            <p>
+                O Atlântico, reconhecido como uma das principais empresas de tecnologia para se
+                trabalhar no Brasil, emprega mais de 600 profissionais. Agora, apresenta o Avanti,
+                um programa focado em capacitar talentos da área de TI para estarem à frente no
+                mercado das mais novas tecnologias.
+            </p>
+
+            <p>
+                Não é apenas um curso, é uma formação desenvolvida por profissionais, para
+                profissionais.
+            </p>
+
+            <img src="assets/atlantico-logo.png" alt="Atlântico" class="market-logo">
         </div>
-        <div class="column-middle">    
-            <div class="botao-footer">
-                <a href="#" class="inicio-footer">Início</a>
-            </div>
-            <div class="redes-sociais">
+
+        <!-- Imagem -->
+        <div class="market-image">
+            <img src="assets/market-photo.png" alt="Equipe Atlântico Avanti" class="market-photo">
+
+            <img 
+                src="assets/certificado.avif" 
+                alt="Great Place To Work" 
+                class="market-badge-overlay"
+            >
+        </div>
+
+
+    </div>
+
+    <!-- Selos -->
+    <div class="container market-badges">
+        <img src="assets/badge1.png" alt="Great Place to Work">
+        <img src="assets/badge2.png" alt="Great Place to Work">
+        <img src="assets/badge3.png" alt="Great Place to Work">
+        <img src="assets/badge4.png" alt="Great Place to Work">
+        <img src="assets/badge5.png" alt="Great Place to Work">
+        <img src="assets/badge6.png" alt="Great Place to Work">
+    </div>
+</section>
+
+</main>
+
+<footer id="footer">
+    <div class="container footer-grid">
+
+        <!-- COLUNA ESQUERDA -->
+        <div class="footer-left">
+            <img src="assets/logo.png" alt="Atlântico Avanti" class="logo-footer">
+
+            <a href="#" class="footer-link">Início</a>
+
+            <div class="footer-social">
                 <a href="#"><img src="assets/face.png"></a>
                 <a href="#"><img src="assets/linkedin.png"></a>
                 <a href="#"><img src="assets/insta.png"></a>
                 <a href="#"><img src="assets/whatsapp.png"></a>
                 <a href="#"><img src="assets/youtube.png"></a>
             </div>
-            <div class="local">
-                <h4>Ceará</h4>
-                <h4>Av. Washington Soares, 909, Lojas 42, 43, 44, E 45</h4>
-                <h4>Edson Queiroz - Fortaleza</h4>
-                <h4>CEP: 60811-341</h4>
+
+            <div class="footer-address">
+                <p><strong>Ceará</strong></p>
+                <p>Av. Washington Soares, 909, Lojas 42, 43, 44 e 45</p>
+                <p>Edson Queiroz – Fortaleza</p>
+                <p>CEP: 60811-341</p>
             </div>
         </div>
-        <div class="column-right">
-            <div class="politicas">
-                <h4>Política de privacidade e uso de cookies. <a href="#">Clique aqui</a></h4>
-                <h4>Termo de Consentimento. <a href="#">Clique aqui</a></h4>
-                <h4>Requisição de Titular de dados. <a href="#">Clique aqui</a></h4>
+
+        <!-- COLUNA DIREITA -->
+        <div class="footer-right">
+            <div class="footer-policies">
+                <p>Política de privacidade e uso de cookies. <a href="#">Clique aqui</a></p>
+                <p>Termo de Consentimento. <a href="#">Clique aqui</a></p>
+                <p>Requisição de Titular de dados. <a href="#">Clique aqui</a></p>
             </div>
-            <div class="contato">
-                <h4>Entre em contato:</h4>
-                <h4><a href="#">contato@atlanticoavanti.com.br</a></h4>
-                <h4><a href="#">(85) 99111-1262</a></h4>
+
+            <div class="footer-contact">
+                <p><strong>Entre em contato:</strong></p>
+                <p><a href="mailto:contato@atlanticoavanti.com.br">contato@atlanticoavanti.com.br</a></p>
+                <p><a href="tel:+5585991111262">(85) 99111–1262</a></p>
             </div>
         </div>
-    </footer>
+
+    </div>
+</footer>
+
+
 </body>
 </html>
